@@ -22,9 +22,9 @@ if menu == "Jupe":
       h_cloche = ((tour_taille/3)-1)/4
    
    
-   sb.image("../pictures/jupe.webp", use_column_width=True)
+   sb.image("https://www.cdiscount.com/pdt2/8/8/6/1/300x300/mp59284886/rw/jupe-courte-femmes-mini-plissee-style-coreen-pou.jpg", use_column_width=True)
    st.write("L'hauteur de la cloche doit être : ",round(h_cloche,2))
 else :
-   sb.image("../pictures/robe.webp")
+   sb.image("https://www.maison123.ch/dw/image/v2/AAWW_PRD/on/demandware.static/-/Sites-UPAP-master/default/dw0ec481b3/653619782_6.jpg?sw=1000&sh=1180&strip=false")
    st.write("En cours ...")
 
